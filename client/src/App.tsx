@@ -132,7 +132,7 @@ function App() {
       <RefineSnackbarProvider>
         <Refine
           dataProvider={dataProvider(
-            'https://refine-alugue-na-hora.onrender.com'
+            'https://refine-alugue-na-hora.onrender.com/api/v1'
           )}
           notificationProvider={notificationProvider}
           ReadyPage={ReadyPage}
