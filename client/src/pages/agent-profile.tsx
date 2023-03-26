@@ -6,7 +6,7 @@ import { Profile } from 'components';
 const AgentProfile = () => {
   const { id } = useParams();
   const { data, isLoading, isError } = useOne({
-    resource: 'users',
+    resource: 'api/v1/users',
     id: id as string,
   });
 
